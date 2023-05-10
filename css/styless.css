@@ -1,0 +1,62 @@
+/*---------------- Configuração base das páginas ----------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/*---------------------------------------------------------------*/
+
+/*---------------- Classes de uso geral ----------------*/
+.textos-centralizados {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 100px;
+}
+/*---------------------------------------------------------------*/
+
+/*---------------- Container: Cabeçalho ----------------*/
+.container-cabecalho {
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.container-cabecalho h5 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #1B91BF;
+    margin-left: 300px;
+    border: 2px solid black;
+    width: 150px;
+    
+}
+
+.container-cabecalho .logo{
+    margin-left: 300px;
+    width: 150px; 
+    height: 150px;
+    border: 2px solid black;
+}
+
+
+/*---------------------------------------------------------------*/
+.menu{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(224, 24, 24);
+    
+    /*Usado para fixar o Menu no Topo do Header*/    
+    position: fixed; 
+        top: 25px;
+        left: 500px;
+        width: 600px;
+        height: 50px;
+}
