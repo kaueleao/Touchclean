@@ -24,39 +24,60 @@ body {
 .container-cabecalho {
     text-align: left;
     padding: 20px;
-    background-color: white;
-    border: 2px solid black;
+    background-color: #1790BF;
 }
 
 .container-cabecalho h5 {
     text-align: center;
     font-weight: 600;
     font-size: 1.5em;
-    color: #1B91BF;
+    color: white;
     margin-left: 300px;
-    border: 2px solid black;
-    width: 150px;
     
+    /*Usado para fixar o Menu no Topo do Header*/    
+    position: fixed; 
+        top: 90px;
+        left: 250px;
+        width: 800px;
+        height: 50px;
 }
 
 .container-cabecalho .logo{
     margin-left: 300px;
     width: 150px; 
-    height: 150px;
-    border: 2px solid black;
+    height: 150px;    
 }
 
-
 /*---------------------------------------------------------------*/
-.menu{
+
+/*---------------- Container: Menu ----------------*/
+.container-menu{
     text-align: center;
-    padding: 20px;
-    border: 2px solid rgb(224, 24, 24);
-    
-    /*Usado para fixar o Menu no Topo do Header*/    
-    position: fixed; 
-        top: 25px;
-        left: 500px;
-        width: 600px;
-        height: 50px;
+    height: 60px;
+    border: 2px solid #1790BF;
+    background-color: #DAF5FF;
+}
+
+.container-menu button {
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #1790BF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.9s;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: white; 
+    color: #1790BF; 
+    border: 2px solid #1790BF;
+    margin-left: 1px;
 }
