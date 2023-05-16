@@ -7,7 +7,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    border: 2px solid white;
 }
+
 /*---------------------------------------------------------------*/
 
 /*---------------- Classes de uso geral ----------------*/
@@ -18,6 +20,7 @@ body {
 .margin-top-40 {
     margin-top: 100px;
 }
+
 /*---------------------------------------------------------------*/
 
 /*---------------- Container: Cabeçalho ----------------*/
@@ -33,25 +36,25 @@ body {
     font-size: 1.5em;
     color: white;
     margin-left: 300px;
-    
-    /*Usado para fixar o Menu no Topo do Header*/    
-    position: fixed; 
-        top: 90px;
-        left: 250px;
-        width: 800px;
-        height: 50px;
+
+    /*Usado para fixar o Menu no Topo do Header*/
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    width: 800px;
+    height: 50px;
 }
 
-.container-cabecalho .logo{
+.container-cabecalho .logo {
     margin-left: 300px;
-    width: 150px; 
-    height: 150px;    
+    width: 150px;
+    height: 150px;
 }
 
 /*---------------------------------------------------------------*/
 
 /*---------------- Container: Menu ----------------*/
-.container-menu{
+.container-menu {
     text-align: center;
     height: 60px;
     border: 2px solid white;
@@ -69,7 +72,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-weight:900;
+    font-weight: 900;
     margin: 4px 2px;
     transition-duration: 0.5s;
     cursor: pointer;
@@ -77,9 +80,10 @@ body {
 }
 
 button:hover {
-    color: #00BE6C; 
+    color: #00BE6C;
     margin-left: 1px;
 }
+
 /*---------------------------------------------------------------*/
 
 /*---------------- Container: Menu ----------------*/
@@ -87,23 +91,27 @@ button:hover {
     border: 2px solid white;
 }
 
+.container-banner img {
+    width: 100%;
+}
+
 .container-banner button {
-    position:absolute;
-    z-index:1;
-    top:68%;
-    left:24%;
-    width: 250px;               /* largura para o botão */
-    height:50px;              /* altura para o botão */
-    padding:0;
-    margin:-15px 0 0 -30px;   /* margem à esquerda e ao topo metade da medida do botão */
+    position: absolute;
+    z-index: 1;
+    top: 66%;
+    left: 24%;
+    width: 250px;
+    height: 50px;
+    padding: 0;
+    margin: -15px 0 0 -30px;
     border-radius: 15px;
-    border:none;
+    border: none;
     cursor: pointer;
     background-color: #1790BF;
     color: white;
-    font-weight:900;
+    font-weight: 900;
     font-size: large;
-    
+
 }
 
 .container-banner i {
@@ -115,3 +123,123 @@ button:hover {
     background-color: #00BE6C;
     transition-duration: 0.5s;
 }
+
+/*---------------------------------------------------------------*/
+
+/*---------------- Container: Serviços ----------------*/
+.container-servicos {
+    background-color: #0C453D;
+    margin: 0 auto;
+    text-align: center;
+    height: 750px;
+    border: 2px solid white;
+}
+
+.container-servicos h1 {
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.container-servicos h2 {
+    margin-top: 7px;
+}
+
+.container-servicos p {
+    margin-top: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.container-servicos article {
+    background-color: #00BE6C;
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.container-servicos div {
+    display: inline-block;
+    width: 320px;
+    height: 450px;
+    margin: 70px 50px;
+    background-color: #0C453D;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.container-servicos img {
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.container-servicos button {
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #1790BF;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+}
+
+.container-servicos button:hover {
+    background-color: #00BE6C;
+    transition-duration: 0.5s;
+}
+
+/*---------------------------------------------------------------*/
+
+/*---------------- Container: Rodapé ----------------*/
+
+.container-rodape {
+    text-align: center;
+    padding: 30px;
+    background-color: #1790BF;
+    color: white;
+    height: 350px;
+    border: 2px solid white;
+}
+
+.container-rodape div {
+    display: inline-block;
+    width: 450px;
+    height: 250px;
+    margin: 20px 50px;
+}
+
+.container-rodape h2 {
+    text-align: left;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.container-rodape hr {
+    margin-top: 10px;
+    
+}
+
+.container-rodape ul {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.container-rodape li {
+    padding: 5px;
+}
+
+#small {
+    margin-top: 20px;
+    height: 50px;
+}
+
+/*---------------------------------------------------------------*/
