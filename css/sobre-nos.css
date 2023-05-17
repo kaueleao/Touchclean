@@ -86,100 +86,55 @@ button:hover {
 
 /*---------------------------------------------------------------*/
 
-/*---------------- Container: Menu ----------------*/
-.container-banner {
-    border: 2px solid white;
-}
-
-.container-banner img {
-    width: 100%;
-}
-
-.container-banner button {
-    position: absolute;
-    z-index: 1;
-    top: 66%;
-    left: 24%;
-    width: 250px;
-    height: 50px;
-    padding: 0;
-    margin: -15px 0 0 -30px;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-    background-color: #1790BF;
-    color: white;
-    font-weight: 900;
-    font-size: large;
-
-}
-
-.container-banner i {
-    position: absolute;
-    left: 17px;
-}
-
-.container-banner button:hover {
-    background-color: #00BE6C;
-    transition-duration: 0.5s;
-}
-
-/*---------------------------------------------------------------*/
-
-/*---------------- Container: Serviços ----------------*/
-.container-servicos {
+/*---------------- Container: Sobre Nós ----------------*/
+.container-sobre-nos {
     background-color: #0C453D;
     margin: 0 auto;
     text-align: center;
-    height: 750px;
+    height: 800px;
     border: 2px solid white;
 }
 
-.container-servicos h1 {
-    padding: 20px;
-    font-size: 50px;
-    color: white;
-}
-
-.container-servicos h2 {
-    margin-top: 7px;
-}
-
-.container-servicos p {
-    margin-top: 10px;
-    color: white;
-    font-weight: 900;
-}
-
-.container-servicos article {
+.container-sobre-nos article {
     background-color: #00BE6C;
     width: 80%;
-    height: 700px;
+    height: 730px;
     margin: 20px auto;
     border-radius: 15px;
     border: 2px solid white;
 }
 
-.container-servicos div {
-    display: inline-block;
-    width: 320px;
-    height: 450px;
-    margin: 70px 50px;
+.container-sobre-nos h1 {
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.container-sobre-nos div {
+    width: 99%;
+    height: 570px;
+    margin: 0 auto;
+    margin-top: 30px;
     background-color: #0C453D;
     border: 2px solid white;
     border-radius: 15px;
 }
 
-.container-servicos img {
-    margin-top: 7px;
-    border-radius: 5px;
+.container-sobre-nos p {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
 }
 
-.container-servicos button {
+.container-sobre-nos button {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 43%;
     width: 250px;
     height: 50px;
-    margin: 0 auto;
-    margin-top: 15px;
+    padding: 0;
     border-radius: 15px;
     border: none;
     cursor: pointer;
@@ -189,7 +144,7 @@ button:hover {
     font-size: large;
 }
 
-.container-servicos button:hover {
+.container-sobre-nos button:hover {
     background-color: #00BE6C;
     transition-duration: 0.5s;
 }
@@ -198,7 +153,7 @@ button:hover {
 
 /*---------------- Container: Rodapé ----------------*/
 
-.container-rodape {
+.container-rodape-sobre-nos {
     text-align: center;
     padding: 30px;
     background-color: #1790BF;
@@ -207,25 +162,26 @@ button:hover {
     border: 2px solid white;
 }
 
-.container-rodape div {
+.container-rodape-sobre-nos div {
     display: inline-block;
     width: 450px;
     height: 250px;
     margin: 20px 50px;
+    background-color: #1790BF;
 }
 
-.container-rodape h2 {
+.container-rodape-sobre-nos h2 {
     text-align: left;
     font-weight: 900;
     font-size: 35px;
 }
 
-.container-rodape hr {
+.container-rodape-sobre-nos hr {
     margin-top: 10px;
     
 }
 
-.container-rodape ul {
+.container-rodape-sobre-nos ul {
     text-align: left;
     margin-top: 20px;
     margin-left: 40px;
@@ -233,7 +189,7 @@ button:hover {
     font-size: 18px;
 }
 
-.container-rodape li {
+.container-rodape-sobre-nos li {
     padding: 5px;
 }
 
